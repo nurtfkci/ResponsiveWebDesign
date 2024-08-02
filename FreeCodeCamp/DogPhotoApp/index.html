@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DogPhotoApp</title>
+    <link rel="icon" type="image/x-icon" href="../pawprint.png">
+
+    <style>
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #f4eee1;
+            margin-left: 35%;
+        }
+
+        img {
+            width: 500px;
+            height: 5;
+        }
+
+        fieldset{
+            width: 55%;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>DogPhotoApp</h1>
+        <section>
+            <h2>Dog Photos</h2>
+            <!-- Add A Gallery Link - POP UP -->
+            <p>See more dog photos in our <a href="freedogphoto.html">gallery</a></p>
+            <!-- Add A Gallery Link to Image - PopUp -->
+            <a href="freedogphoto.html">
+                <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="a black dog licking its nose">
+            </a>
+        </section>
+        <section>
+            <h2>Dog Lists</h2>
+            <h3>Things dogs love to chew:</h3>
+            <ul>
+                <li>Bones</li>
+                <li>Sticks</li>
+                <li>Toys</li>
+            </ul>
+            <!-- Add a picture of BONES  -->
+            <figure>
+                <img src="https://images.unsplash.com/photo-1601758124277-f0086d5ab050?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="a pet owner showing a toy bone to a black dog">
+                <figcaption>Dogs <em>love</em> a combination of toys and bones.</figcaption>
+            </figure>
+            <h3>Top 3 things dogs hate:</h3>
+            <ol>
+                <li>flea treatment</li>
+                <li>being alone</li>
+                <li>not having personal space</li>
+            </ol>
+            <figure>
+                <img src="https://images.unsplash.com/photo-1547623542-de3ff5941ddb?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="a cat and a dog in a field">
+                <figcaption>Dogs <strong>hate</strong> not having personal space</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Dog Form</h2>
+            <form action="submitform.html" class="dogform">
+                <fieldset>
+                    <legend>What size is your dog?</legend>
+                    <label><input checked type="radio" name="sizes" id="small" value="small">Small</label>
+                    <label><input type="radio" name="sizes" id="medium" value="medium">Medium</label>
+                    <label><input type="radio" name="sizes" id="big" value="big">Big</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What's your dog's personality?</legend>
+                    <input checked type="checkbox" name="personality" id="loyal" value="loyal"><label for="loyal">Loyal</label>
+                    <input type="checkbox" name="personality" id="playful" value="playful"><label for="playful">Playful</label>
+                    <input type="checkbox" name="personality" id="cuddly" value="cuddly"><label for="cuddly">Cuddly</label>
+                </fieldset>
+                <input required type="text" name="catphotourl" placeholder="Dog Photo Url">
+                <button type="submit">Submit</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy No Copyright - <a href="freedogphoto.html">freeDogPhotos.com</a></p>
+    </footer>
+</body>
+
+</html>
