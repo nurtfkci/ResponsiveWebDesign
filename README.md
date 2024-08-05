@@ -1,9 +1,10 @@
 <h1>Responsive Web Design Projects</h1>
 
 <h2>Dog Photo App</h2>
-<img width="250" alt="dogLists" src="https://github.com/user-attachments/assets/e0a71f01-2638-4b3b-86b6-0bd22ee346d1">
-<img width="250" alt="main" src="https://github.com/user-attachments/assets/0cdd32cb-8ba2-45f0-a08a-a042ef5a3bfc">
-<img width="250" alt="dogForm" src="https://github.com/user-attachments/assets/a7b6691c-7698-406a-a98f-1c4c0386f60a">
+<img width="1440" alt="dogPhotoApp1" src="https://github.com/user-attachments/assets/893556c7-bd4b-41b1-a94c-00f955e3c35a">
+<img width="1440" alt="dogFormPage" src="https://github.com/user-attachments/assets/d5e3ad07-90b1-49cb-8feb-b2548c37b6de">
+<img width="1440" alt="dogFormSubmit" src="https://github.com/user-attachments/assets/8ec7af7b-66ec-4470-bff2-1e819eeca1a3">
+<img width="1440" alt="moreDogPhotos" src="https://github.com/user-attachments/assets/09575da3-2783-4bfc-8c66-400882a0fb88">
 
 <hr>
 
