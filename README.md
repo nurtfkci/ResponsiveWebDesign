@@ -10,3 +10,6 @@
 
 <h2>Salad Haven Menu</h2>
 <img width="1440" alt="saladhaven" src="https://github.com/user-attachments/assets/44f549a5-54d1-4290-8682-df463a7d20dd">
+<hr>
+<h2>CSS Colored Markers</h2>
+<img width="1440" alt="cssColoredMarkers" src="https://github.com/user-attachments/assets/91a577a2-12aa-4737-b318-8fb1415fd39e">
