@@ -1,0 +1,130 @@
+h1,h2{
+    text-align: center;
+    color: #33312D;
+}
+
+/* 0 -- 255 */
+.container{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 100%;
+}
+
+.marker{
+    height: 25px;
+    width: 150px;
+    /* margin: top/bottom left/right; */
+    margin: 10px auto;
+}
+
+.cap{
+    width: 30px;
+    height: 25px;
+}
+
+.sleeve{
+    width:100px;
+    height:25px;
+    background-color: white;
+    opacity: 0.5;
+    /* width style color */
+    border-left: 10px double rgba(0,0,0,0.75);
+}
+
+  .cap, .sleeve{
+    display: inline-block;
+  }
+
+/* PRIMARY */
+.primary{
+    display: inline;
+    margin: auto 5px;
+    width: 40%;
+}
+.one{
+    background:linear-gradient(rgb(127,0,0),rgb(255,0,0),rgb(127,0,0));
+    box-shadow: 0 0 20px 0 rgba(255, 0, 0, 0.8);
+}
+
+.two{
+    background:linear-gradient(#00AA00,#00FF00,#00AA00);
+    box-shadow: 0 0 20px 0 rgba(0, 255, 0, 0.8);
+
+}
+
+.three{
+    background:linear-gradient(hsl(240,100%,25%),hsl(240,100%,50%),hsl(240,100%,25%));
+    box-shadow: 0 0 20px 0 rgba(0, 0, 255, 0.8);
+
+}
+
+/* SECONDARY */
+.secondary{
+    display: inline;
+    margin: auto 5px;
+    width: 40%;
+}
+.four{
+    background:linear-gradient(rgb(220, 220, 0),rgb(255, 255, 0),rgb(220, 220, 0));
+    box-shadow: 0 0 20px 0 rgba(255, 255, 0, 0.8);
+
+}
+
+.five{
+    background:linear-gradient(#00C8C8,#00FFFF,#00C8C8);
+    box-shadow: 0 0 20px 0 #00FFFFCC;
+}
+
+
+.six{
+    background:linear-gradient(hsl(300,100%,40%),hsl(300,100%,50%),hsl(300,100%,40%));
+    box-shadow: 0 0 20px 0 hsla(300,100%,50%,0.8);
+
+}
+
+/* TRIATRY  */
+.triatry{
+display: block;
+margin: auto 50px;
+}
+
+
+.first, .second{
+    display: inline;
+}
+
+
+.seven{
+    background: linear-gradient(rgb(200,127,0),rgb(255, 127, 0),rgb(200,127,0));
+    box-shadow: 0 0 20px 0 rgba(255,127,0,0.8);
+}
+
+.eight{
+    background: linear-gradient(rgb(0, 200, 127),rgb(0, 255, 127),rgb(0, 200, 127));
+    box-shadow: 0 0 20px 0 rgba(0,255,127,0.8);
+
+}
+
+.nine{
+    background: linear-gradient(rgb(100, 0, 255),rgb(127, 0, 255),rgb(100, 0, 255));
+    box-shadow: 0 0 20px 0 rgba(127,0,255,0.8);
+
+}
+
+.ten{
+    background: linear-gradient(rgb(127, 200, 0),rgb(127, 255, 0),rgb(127, 200, 0));
+    box-shadow: 0 0 20px 0 rgba(127,255,0,0.8);
+
+}
+
+.eleven{
+    background:linear-gradient(rgb(0, 100, 255),rgb(0, 127, 255),rgb(0, 100, 255)) ;
+    box-shadow: 0 0 20px 0 rgba(0,127,255,0.8);
+
+}
+
+.twelve{
+    background: linear-gradient(rgb(200, 0, 127),rgb(255, 0, 127),rgb(200, 0, 127));
+    box-shadow: 0 0 20px 0 rgba(255,0,127,0.8);
+
+}
