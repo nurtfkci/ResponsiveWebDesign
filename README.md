@@ -13,3 +13,8 @@
 <hr>
 <h2>CSS Colored Markers</h2>
 <img width="1440" alt="cssColoredMarkers" src="https://github.com/user-attachments/assets/91a577a2-12aa-4737-b318-8fb1415fd39e">
+<hr>
+<h2>Registration Form</h2>
+<img width="1440" alt="registrationForm" src="https://github.com/user-attachments/assets/81daa922-2e5c-4d26-9873-e7965b2e2354">
+<img width="1440" alt="regSubmit" src="https://github.com/user-attachments/assets/9ad292c5-26f4-4049-9257-6f9b1c63a3d5">
+
