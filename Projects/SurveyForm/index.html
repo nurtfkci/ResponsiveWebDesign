@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+   
+        <h1 id="title">Oboy! Catering Services Survey Form</h1>
+        <p id="description"> Thank you for taking the time to help us improve our services!
+        <p>
+
+        <!-- FORM -->
+    <form action="survey.html" id="survey-form" method="post">
+
+        <!-- CUSTOMER INFO -->
+        <fieldset id="customer-info">
+
+            <!-- NAME -->
+            <label for="name" id="name-label"> Name:
+                <input required type="text" id="name" name="full-name" placeholder="Full Name">
+            </label>
+
+            <!-- EMAIL -->
+            <label for="email" id="email-label"> Email:
+                <input required type="email" id="email" name="email" placeholder="name@email.com">
+            </label>
+
+            <!-- PHONE NUMBER -->
+            <label for="phone" id="phone-label">Phone Number:
+                <input type="text" name="phone" id="phone" placeholder="+1 234 567 8990">
+            </label>
+
+            <!-- AGE -->
+            <label for="age" id="number-label"> Age:
+                <input type="number" id="number" name="phone-number" pattern="[0-9]" min="18" max="50"
+                    placeholder="Your Age">
+            </label>
+
+        </fieldset>
+
+        <!-- EVENT INFO -->
+        <fieldset id="event-info">
+            <!-- DROPDOWN -->
+            <legend> What type of event did we cater for you?</legend>
+            <label for="dropdown">
+                <select name="services" id="services">
+                    <option value="">Select event: </option>
+                    <option value="birthday">Birthday Party</option>
+                    <option value="wedding">Wedding Planning</option>
+                    <option value="corporate">Corporate Event</option>
+                    <option value="baby-shower">Baby Shower</option>
+                    <option value="dinner">Private Dinner Party</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <!-- CUSTOMER FEEDBACK -->
+        <fieldset id="customer-feedback-1">
+            <!-- RADIO -->
+            <legend> How likely are you to recommend our catering services to others? </legend>
+            <label for="very-likely">
+                <input id="very-likely" type="radio" name="recommend" value="very-likely"  class="inline"> Very Likely
+            </label>
+            <label for="likely" class="inline">
+                <input id="likely" type="radio" name="recommend" value="likely" class="inline"> Likely
+            </label>
+            <label for="neutral" class="inline">
+                <input id="neutral" type="radio" name="recommend" value="neutral" class="inline"> Neutral
+            </label>
+            <label for="un-likely" class="inline">
+                <input id="un-likely" type="radio" name="recommend" value="un-likely" class="inline" > Unlikely
+            </label>
+            <label for="very-unlikely" class="inline">
+                <input id="very-unlikely" type="radio" name="recommend" value="very-unlikely" class="inline"> Very Unlikely
+            </label>
+        </fieldset>
+
+        <fieldset id="customer-feedback-2">
+            <legend>What can we improve?</legend>
+            <!-- CHECKBOX -->
+            <label><input type="checkbox" name="feedback">Organization</label>
+            <label><input type="checkbox" name="feedback">Food Quality</label>
+            <label><input type="checkbox" name="feedback">Punctuality</label>
+            <label><input type="checkbox" name="feedback">Problem Resolution</label>
+            <label><input type="checkbox" name="feedback">Helpfulness</label>
+        </fieldset>
+
+        <fieldset id="customer-feedback-3">
+            <legend>Any comments or suggestions?</legend>
+            <label for="comment">
+                <textarea id="comment" placeholder="Enter your comment here.." name="comment" rows="5" cols="25"></textarea>
+            </label>
+        </fieldset>
+
+        <!-- SUBMIT -->
+        <label for="submit" id="submit">
+            <input type="submit" id="submit" value="Submit">
+        </label>
+    </form>
+</body>
+
+</html>
