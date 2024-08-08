@@ -1,0 +1,60 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+    color: #355E3B;
+}
+
+.canvas {
+    height: 800px;
+    width: 500px;
+    background-color: #b92121d6;
+    overflow: hidden;
+    border-radius: 8px 10px;
+
+}
+
+.frame {
+    width: 500px;
+    height: 800px;
+    border: 20px solid black;
+    padding: 20px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.one {
+    width: 400px;
+    height: 400px;
+    background-color: #CCA3FF;
+    margin: 40px auto 10px;
+    box-shadow: 0 0 3px 3px #CCA3FF;
+    filter: blur(5px);
+    border-radius: 8px 10px;
+    transform: rotate(0.1deg);
+}
+
+.two {
+    width: 400px;
+    height: 100px;
+    background-color: #355E3B;
+    margin: 10px auto;
+    box-shadow: 0 0 1px 1px #355E3B;
+    filter: blur(7px);
+    border: 2.5px solid gold;
+    border-radius: 8px 10px;
+    transform: rotate(-0.3deg);
+
+
+
+}
+
+.three {
+    width: 400px;
+    height: 200px;
+    background-color: #b92525;
+    margin: auto;
+    box-shadow: 0 0 2px 2px #b92525;
+    filter: blur(2px);
+    border-radius: 8px 10px;
+
+}
