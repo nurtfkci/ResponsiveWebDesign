@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    margin: 0;
+    background: beige;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    background-color: rgb(19, 19, 93);
+    color: white;
+    padding: 32px;
+    border-bottom:5px solid orange;
+    font-size: 30px;
+}
+
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.gallery img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.gallery::after{
+    content: "";
+    width: 350px;
+}
+
+a:hover, a:active, a:visited{
+    color: orange;
+}
+
+a:link{
+    color: white;
+}
